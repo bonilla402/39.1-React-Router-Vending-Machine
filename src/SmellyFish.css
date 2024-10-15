@@ -1,0 +1,35 @@
+﻿.smelly-fish {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #e3f2fd; /* Light blue for water theme */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.smelly-fish h1 {
+    color: #1e88e5; /* Bright blue to match the aquatic theme */
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+}
+
+.smelly-fish p {
+    font-size: 1.2rem;
+    color: #333;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.smelly-fish-back-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #039be5; /* Lively fish-like blue */
+    font-weight: bold;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.smelly-fish-back-link:hover {
+    color: #0288d1; /* Darker blue on hover for depth effect */
+    transform: scale(1.1); /* Slight zoom on hover */
+}

@@ -1,0 +1,17 @@
+﻿/* src/NavBar.css */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}

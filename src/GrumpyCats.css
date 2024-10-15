@@ -1,0 +1,36 @@
+﻿.grumpy-cats {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f0f0f0; /* Subtle gray for a neutral feel */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.grumpy-cats h1 {
+    color: #8b0000; /* Dark red to reflect grumpiness */
+    font-family: 'Georgia', serif;
+    margin-bottom: 10px;
+}
+
+.grumpy-cats p {
+    font-size: 1.2rem;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+/* Component-specific back-link */
+.grumpy-cats-back-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #4caf50;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.grumpy-cats-back-link:hover {
+    text-decoration: underline;
+    transform: scale(1.1); /* Slight zoom on hover */
+}
