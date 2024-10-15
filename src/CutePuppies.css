@@ -1,37 +1,48 @@
-﻿.cute-puppies {
-    text-align: center;
-    margin-top: 50px;
-    background-color: #fffbe6; /* Light yellow to feel playful */
+﻿/* src/CutePuppies.css */
+.cute-puppies {
+    height: 100vh;
+    background-image: url('../public/dog.png'); /* Use the uploaded image */
+    background-repeat: repeat; /* Repeat the image to fill the screen */
+    background-size: auto;
+    background-position: top left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.text-overlay {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 .cute-puppies h1 {
-    color: #ff69b4; /* Hot pink for a cute vibe */
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #ff69b4; /* Cute pink */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Light text shadow */
     margin-bottom: 10px;
 }
 
 .cute-puppies p {
     font-size: 1.1rem;
-    color: #333;
-    font-style: italic;
-    margin-bottom: 10px;
+    color: #333; /* Darker text for readability */
+    margin-bottom: 20px;
 }
 
-/* Component-specific back-link */
 .cute-puppies-back-link {
     display: inline-block;
-    margin-top: 20px;
+    padding: 10px 20px;
     text-decoration: none;
-    color: #ff69b4;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    color: #fff;
+    border-radius: 5px;
     font-weight: bold;
-    transition: color 0.3s, transform 0.2s;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 .cute-puppies-back-link:hover {
-    text-decoration: underline;
-    opacity: 0.8;
-    transform: scale(1.1); /* Slight zoom on hover */
+    background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
+    transform: scale(1.1); /* Slight zoom effect */
 }
